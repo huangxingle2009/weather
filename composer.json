@@ -1,0 +1,19 @@
+{
+    "name": "hbl/weather",
+    "description": "a weather sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "huangbule",
+            "email": "huangbule@comteck.cn"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hbl\\Weather\\": "src"
+        }
+    }
+}
