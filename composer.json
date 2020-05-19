@@ -9,7 +9,14 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^6.5"
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hbl\\Weather\\ServiceProvider"
+            ]
+        }
     },
     "autoload": {
         "psr-4": {
